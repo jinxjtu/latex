@@ -1,0 +1,20 @@
+ \begin{figure}[h]
+  \centering
+   \captionsetup[subfigure]{justification=centering,singlelinecheck=false}
+    \begin{subfigure}[b]{0.5\textwidth}
+       \includegraphics[width=\textwidth]{figures/yitalegend.png}
+  \end{subfigure}\\
+   \begin{subfigure}[b]{0.24\textwidth}
+    \includegraphics[width=\textwidth,right]{figures/singlenovg.eps}
+    \caption{single hole without VGs}
+     \label{fig:singlenovg}
+  \end{subfigure}
+\hspace{1pt}
+  \begin{subfigure}[b]{0.24\textwidth}
+    \includegraphics[width=\textwidth,left]{figures/singlevg0.eps}
+    \caption{single hole with VGs}
+    \label{fig:singvg0}
+  \end{subfigure}
+\caption{Film cooling effectiveness downstream a single hole}
+\label{fig:fcc_single}
+\end{figure}
