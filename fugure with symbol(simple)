@@ -1,0 +1,5 @@
+\begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[width=\textwidth]{some_image.jpg}};
+    \draw[red,ultra thick,rounded corners] (7.5,5.3) rectangle (9.4,6.2);
+\end{tikzpicture}
+
