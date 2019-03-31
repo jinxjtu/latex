@@ -1,0 +1,20 @@
+\begin{figure}[h]
+  \centering
+   \captionsetup[subfigure]{justification=centering,singlelinecheck=false}
+    \begin{subfigure}[b]{0.4\textwidth}
+       \includegraphics[width=\textwidth]{figures/yitalegend2.eps}
+  \end{subfigure}\\
+   \begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[height=0.15\textheight,right]{figures/singlestreamline1.eps}
+    \caption{Coolant  streamline without VG}
+     \label{fig:singlenovg}
+  \end{subfigure}
+\hspace{1pt}
+  \begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[height=0.15\textheight,left]{figures/singlestreamline2.eps}
+    \caption{Coolant  streamline with VG}
+    \label{fig:singvg0}
+  \end{subfigure}
+\caption{Stream line and Temperature distribution around the film cooling hole exit}
+\label{fig:fcc_single}
+\end{figure}
