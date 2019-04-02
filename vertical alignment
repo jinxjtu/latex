@@ -1,0 +1,11 @@
+\newsavebox{\tempbox}
+\begin{figure}[H]
+\sbox{\tempbox}{\includegraphics[width=0.28\textwidth]{sparsesmall}}
+\subfloat[sparse($\mathbf{A}$)]{\usebox{\tempbox}\label{sparse}}%
+\qquad
+\subfloat[full($\mathbf{A}$)]{\vbox to \ht\tempbox{%
+  \vfil
+  \includegraphics[width=0.55\textwidth]{fullsmall}
+  \vfil}\label{full}}%
+  \caption{Representation of $\mathbf{A}$ in MATLAB}\label{schematic}
+\end{figure}
