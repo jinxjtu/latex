@@ -141,3 +141,89 @@ $b=2.3D$
 \caption{Vorticity distribution on the plane 0.5D downstream the film cooling hole }
 \label{fig:vorform}
 \end{figure}
+
+\begin{figure}[h]
+\centering
+  \begin{subfigure}[b]{0.8\textwidth}
+  \begin{minipage}{0.15\textwidth}
+\flushleft
+$H=0.25D$
+    \end{minipage}
+    \begin{minipage}[t]{0.8\textwidth}
+        \centering
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/1B025DVPL05D.eps}
+        \hfill
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/2B025DPL05D.eps}
+        \hfill
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/3B025DVPL05D.eps}
+       
+        %\caption{fig1}
+    \end{minipage}%
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.8\textwidth}
+  \begin{minipage}{0.15\textwidth}
+\flushleft
+$H=0.5D$
+    \end{minipage}
+    \begin{minipage}[t]{0.8\linewidth}
+        \centering
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/1A05DVPL05D.eps}
+        \hfill
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/2A05DPL05D.eps}
+        \hfill
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/3A05DVPL05D.eps}\\
+       
+        %\caption{fig1}
+    \end{minipage}%
+  \end{subfigure}
+  
+    \begin{subfigure}[b]{0.8\textwidth}
+  \begin{minipage}{0.15\textwidth}
+\flushleft
+$H=0.75D$
+    \end{minipage}
+    \begin{minipage}[t]{0.8\textwidth}
+        \centering
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/1C075DVPL05D.eps}
+        \hfill
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/2C075DPL05D.eps}
+        \hfill
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/3C075DVPL05D.eps}\\
+               %\caption{fig1}
+    \end{minipage}%
+  \end{subfigure}
+\begin{subfigure}[b]{0.8\textwidth}
+  \begin{minipage}{0.15\textwidth}
+\flushleft
+$H=1D$
+    \end{minipage}
+    \begin{minipage}[t]{0.8\textwidth}
+        \centering
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/11DDVPL05D.eps}
+        \hfill
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/21DVPL05D.eps}
+        \hfill
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/vorticity/31DVPL05D.eps}\\
+               %\caption{fig1}
+    \end{minipage}%
+  \end{subfigure}
+  \begin{subfigure}[b]{0.8\textwidth}
+  \begin{minipage}{0.15\textwidth}
+\flushleft
+\hspace{0.15\textwidth}
+    \end{minipage}
+    \begin{minipage}[t]{0.8\textwidth}
+        \centering
+       $b=2.3D$
+        \hfill
+       $b=3.3D$
+        \hfill
+        $b=4.3D$\\
+               %\caption{fig1}
+    \end{minipage}%
+  \end{subfigure}
+\centering
+\caption{Vorticity distribution on the plane 0.5D downstream the film cooling hole }
+\label{fig:vorform}
+\end{figure}
