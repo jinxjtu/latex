@@ -1,0 +1,143 @@
+\begin{figure*}[htbp]
+\centering
+ 
+  \begin{subfigure}[b]{0.8\textwidth}
+  \begin{minipage}{0.09\textwidth}
+\flushleft
+$b=2.3D$
+    \end{minipage}
+    \begin{minipage}[t]{0.33\linewidth}
+        \centering
+        \includegraphics[width=1.651in]{figures/vorticity/1B025DVPL05D.eps}\\
+        \vspace{0.02cm}
+        \includegraphics[width=1.651in]{figures/vorticity/2B025DPL05D.eps}\\
+        \vspace{0.02cm}
+        \includegraphics[width=1.651in]{figures/vorticity/3B025DVPL05D.eps}\\
+        \vspace{0.02cm}
+        %\caption{fig1}
+    \end{minipage}%
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.8\textwidth}
+  \begin{minipage}{0.09\textwidth}
+\flushleft
+$b=2.3D$
+    \end{minipage}
+    \begin{minipage}[t]{0.33\linewidth}
+        \centering
+        \includegraphics[width=1.651in]{figures/vorticity/1A05DVPL05D.eps}\\
+        \vspace{0.02cm}
+        \includegraphics[width=1.651in]{figures/vorticity/2A05DPL05D.eps}\\
+        \vspace{0.02cm}
+        \includegraphics[width=1.651in]{figures/vorticity/3A05DVPL05D.eps}\\
+        \vspace{0.02cm}
+        %\caption{fig1}
+    \end{minipage}%
+  \end{subfigure}
+ 
+\centering
+\caption{描述。。。}
+\vspace{-0.2cm}
+\label{fig:compare_fig}
+\end{figure*}
+
+\begin{figure}[h]
+  \centering
+   \captionsetup[subfigure]{justification=centering,singlelinecheck=false}
+   \begin{minipage}{0.6\textwidth}
+    \includegraphics[width=\textwidth]{figures/vorticity/vorlegend.eps}
+    \end{minipage}
+\hspace{0.1pt}
+   \begin{minipage}{0.2\textwidth}
+\topskip0pt
+\vspace{25pt}
+Vorticity$(\times 10^{4}s^{-1})$
+  \end{minipage}\\
+
+  \begin{minipage}{0.09\textwidth}
+\flushleft
+$b=2.3D$
+    \end{minipage}
+  \begin{minipage}{0.8\textwidth}
+  \begin{subfigure}[b]{0.2\textwidth}
+    \includegraphics[height=0.055\textheight]{figures/vorticity/1B025DVPL05D.eps}
+  \end{subfigure}
+\hfill
+  \begin{subfigure}[b]{0.2\textwidth}
+    \includegraphics[height=0.055\textheight]{figures/vorticity/2B025DPL05D.eps}
+  \end{subfigure}
+\hfill 
+    \begin{subfigure}[b]{0.2\textwidth}
+    \includegraphics[height=0.055\textheight]{figures/vorticity/3B025DVPL05D.eps}
+  \end{subfigure}\\
+
+  \begin{subfigure}[b]{0.2\textwidth}
+    \includegraphics[height=0.055\textheight]{figures/vorticity/1A05DVPL05D.eps}
+  \end{subfigure}
+  \hfill 
+    \begin{subfigure}[b]{0.2\textwidth}
+    \includegraphics[height=0.055\textheight]{figures/vorticity/2A05DPL05D.eps}
+    \hfill 
+    \begin{subfigure}[b]{0.2\textwidth}
+    \includegraphics[height=0.055\textheight]{figures/vorticity/3A05DVPL05D.eps}\\
+      \end{subfigure}\\
+  \end{subfigure}\\
+    \end{minipage}\\
+    \caption{Stream line and Temperature distribution around the film cooling hole exit}
+\label{fig:fcc_single}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{\textwidth}
+      \centering
+      \includegraphics[width=\textheight,height=0.055\textheight]{figures/yitalegend.png}
+        \end{subfigure}
+  \begin{subfigure}[b]{0.3\textwidth}
+      \centering
+      \includegraphics{figures/singleangleyita/10.png}
+      \caption{$\alpha=10$ }
+\label{fig:singled}
+     \end{subfigure}
+        \hfill
+          \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics{figures/singleangleyita/20.png}
+        \caption{$\alpha=20$ }
+\label{fig:singlee}
+         \end{subfigure}
+        \hfill
+          \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics{figures/singleangleyita/30.png}\\
+       \centering
+\caption{$\alpha=30$ }
+\label{fig:singlef}
+        %\caption{fig1}
+  \end{subfigure}\\
+
+  \begin{subfigure}[b]{0.8\textwidth}
+      \centering
+      \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/singleangleyita/40.png}
+      \caption{$\alpha=40$ }
+\label{fig:singled}
+     \end{subfigure}
+        \hfill
+          \begin{subfigure}[b]{0.8\textwidth}
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/singleangleyita/50.png}
+        \caption{$\alpha=50$ }
+\label{fig:singlee}
+         \end{subfigure}
+        \hfill
+          \begin{subfigure}[b]{0.8\textwidth}
+        \includegraphics[width=0.155\textheight,height=0.055\textheight]{figures/singleangleyita/60.png}\\
+       \centering
+\caption{$\alpha=60$ }
+\label{fig:singleangle}
+        %\caption{fig1}
+  \end{subfigure}\\
+  
+   
+
+\centering
+\caption{Vorticity distribution on the plane 0.5D downstream the film cooling hole }
+\label{fig:vorform}
+\end{figure}
