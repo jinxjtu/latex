@@ -1,0 +1,19 @@
+
+
+%%%%%%%%%%hide reference
+
+\usepackage{natbib}
+\usepackage{bibentry}
+
+\begin{document}
+\nobibliography{filename}
+\end{document}
+
+
+%%%%%%%%%cite seperately
+\begin{document}
+\bibliographystyle{unsrturl}
+\bibliography{./references}
+\end{document}
+
+\externalcitedocument{paper}
