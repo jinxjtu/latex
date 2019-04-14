@@ -1,0 +1,19 @@
+\begin{figure}[h]
+\centering
+  \captionsetup[subfigure]{justification=raggedleft,singlelinecheck=false}
+  \begin{subfigure}[b]{0.55\textwidth}
+\centering
+    \includegraphics[width=0.8\textwidth,right]{figures/mesh.png}
+    \caption{A panoramic view of mesh in the calculating domain}
+    \label{fig:mesha}
+  \end{subfigure}
+   \captionsetup[subfigure]{justification=raggedright,singlelinecheck=false}
+  \begin{subfigure}[b]{0.38\textwidth}
+\centering
+    \includegraphics[width=0.6\textwidth,left]{figures/meshb.png}
+    \caption{Mesh detail with enlarged scale}
+    \label{fig:meshb}
+  \end{subfigure}
+   \caption{Structure mesh in calculation}  
+  \label{fig:mesh}
+\end{figure}
