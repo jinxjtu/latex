@@ -1,0 +1,11 @@
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.6\textwidth}
+    \includegraphics[width=\textwidth]{figures/vorticity/vorlegend.png}
+   \end{subfigure}
+    \begin{subfigure}[b]{0.15\textwidth}
+\vspace{0pt}
+$vorticity(\times10^{4})$
+\vspace{10pt}
+  \end{subfigure}\\
+  \end{figure}[h!]
