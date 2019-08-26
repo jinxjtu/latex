@@ -1,0 +1,39 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\begin{document}
+
+\begin{figure}[hp]
+\centering
+
+\includegraphics[scale=.30]{example-image-a}
+
+\caption{A caption with long text bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla}
+\end{figure}
+
+\begin{figure}[hp]
+\centering
+\captionsetup{justification=centering}
+
+\includegraphics[scale=.30]{example-image-b}
+
+\caption{A caption with long text bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla}
+\end{figure}
+
+\begin{figure}[hp]
+\centering
+\captionsetup{justification=centering,margin=2cm}
+
+\includegraphics[scale=.30]{example-image-c}
+
+\caption{A caption with long text bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla}
+\end{figure}
+
+\end{document}
+
+
