@@ -1,0 +1,11 @@
+\newcommand\HUGE{\fontsize{50}{60}\selectfont}  (before document)
+
+\sloppy  (after \begin documents)
+
+\Huge (after each of the sections)
+
+
+\newcommand\TIT{\fontsize{36}{70}\selectfont}
+\newcommand\HUGE{\fontsize{36}{40}\selectfont}
+
+\sloppy
